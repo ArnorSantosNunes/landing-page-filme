@@ -1,5 +1,13 @@
-$bgcolor:rgb(18, 52, 0);
 
+@use '../../node_modules/bootstrap/scss/bootstrap.scss' as bs;
+@use 'hero'; 
+@use 'hero2'; 
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
-    background-color: $bgcolor;
+    background-color: rgb(0, 0, 0);
 }
